@@ -11,16 +11,16 @@ const Header = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant cras morbi hendrerit nunc vel sapien. In habitasse at diam suspendisse non vitae fermentum, pharetra arcu. Viverra a morbi ut donec in. Ac diam, at sed cras nisi.</p>
 
             <div className="enterprise_header-content__button">
-              <button type="button">Learn More --></button>
+              <button type="button">Learn More →</button>
             </div>
           </div>
 
           <div className="enterprise__header-Eimage">
-              <img src={hElipse} />
+              <img src={hElipse} alt="Eplipse"/>
           </div>
           
           <div className="enterprise__header-image">
-            <img src={bro} />
+            <img src={bro} alt="bro"/>
           </div>
       </div>
   )

@@ -6,7 +6,7 @@
 }
 
 body {
-  background: var(--color-bg);
+  background: #fff;
 }
 
 a {
@@ -15,7 +15,7 @@ a {
 }
 
 .bg {
-  background:#F4F4F4;
+  background:#fff;
 }
 
 .gradient__text {
