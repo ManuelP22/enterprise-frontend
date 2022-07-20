@@ -1,0 +1,113 @@
+.enterprise__ourservices {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+}
+
+.enterprise__ourservices-heading {
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-family: var(--font-family);
+        font-size: 40px;
+        line-height: 46px;
+
+        color: #0048FF;
+        margin-left: 43rem;
+    }
+}
+
+.enterprise__ourservices-container {
+    display: table-column;
+    position: relative;
+}
+
+.enterprise__ourservices-container__rectangle4-service {
+    align-items: center;
+    flex-direction: column;
+    margin-left: 8rem;
+
+    img {
+        position: relative;
+    }
+
+    h1 {
+        margin-top: 11.5rem;
+        z-index: 9;
+        position: absolute;
+        margin-left: 4rem;
+    }
+
+    p {
+        margin-top: 16.5rem;
+        z-index: 9;
+        position: absolute;
+        margin-left: -11rem;
+        width: 526.96px;
+    }
+
+    button {
+        margin-top: 25.5rem;
+        z-index: 9;
+        position: absolute;
+        margin-left: -93rem;
+        cursor: pointer;
+    }
+}
+
+.enterprise__ourservices-container__rectangle4b-service {
+    align-items: center;
+    flex-direction: column;
+    margin-left: 8rem;
+    margin-top: -5rem;
+    margin-bottom: -5rem;
+
+    img {
+        position: relative;
+    }
+
+    h1 {
+        margin-top: 11.5rem;
+        z-index: 9;
+        position: absolute;
+        margin-left: -2rem;
+    }
+
+    p {
+        margin-top: 16.5rem;
+        z-index: 9;
+        position: absolute;
+        margin-left: -25rem;
+        width: 526.96px;
+    }
+
+    button {
+        margin-top: 25.5rem;
+        z-index: 9;
+        position: absolute;
+        margin-left: -54.5rem;
+        cursor: pointer;
+    }
+
+}
+
+.enterprise__ourservices__portfolio-img {
+
+    img {
+        margin-left: 57.5rem;
+        margin-top: -23rem;
+        position: absolute;
+    }
+}
+
+.enterprise__ourservices__rakifi-img {
+
+    img {
+        margin-left: 13.5rem;
+        margin-top: -17rem;
+        position: absolute;
+    }
+}
+
