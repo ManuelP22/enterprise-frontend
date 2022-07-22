@@ -1,0 +1,56 @@
+.enterprise__servicemaps {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+
+    margin-top: -5.5rem;
+}
+
+.enterprise__servicemaps-header {
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        margin-left: 43rem;
+
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+
+        color: #0048FF;
+    }
+}
+
+.enterprise__servicemaps-container {
+    display: table-column;
+    position: relative;
+}
+
+.enterprise__servicemaps-container-rectanglemap {
+    align-items: center;
+    flex-direction: column;
+    margin-left: 8rem;
+
+    img {
+        position: relative;
+        margin-left: 4rem;
+    }
+
+    h1 {
+        margin-top: 11.5rem;
+        z-index: 9;
+        position: absolute;
+        margin-left: 6rem;
+        width: 300px;
+    }
+
+    p {
+        margin-top: 8.1rem;
+        z-index: 9;
+        position: absolute;
+        margin-left: -33.5rem;
+        width: 640.96px;
+    }
+}
